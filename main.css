@@ -18,6 +18,11 @@ h1,h2,h3,h4{
 	font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
+.contactpageheaders{
+	color: black;
+}
+
+
 @media Screen and (max-width: 360px) {
 	#header{
 		width: 100%;
@@ -35,6 +40,10 @@ h1,h2,h3,h4{
 	#featuredwork{
 		text-align: center;
 		width: 100%;
+	}
+	.contactpageheaders{
+	color: black;
+	font-size: 12px;
 	}
 }
 
@@ -73,6 +82,10 @@ h1,h2,h3,h4{
 	.text-uppercase{
 		font-size: 30px;	
 	}
+	.contactpageheaders{
+	color: black;
+	}
+	
 }
 
 @media Screen and ( min-width: 750px) {
@@ -109,6 +122,9 @@ h1,h2,h3,h4{
 	}
 	.text-uppercase{
 		font-size: 30px;	
+	}
+	.contactpageheaders{
+	color: black;
 	}
 }
 
@@ -154,6 +170,9 @@ h1,h2,h3,h4{
 	#featuredwork{
 		width: 100%;
 		order: 3;
+	}
+	.contactpageheaders{
+	color: black;
 	}
 }
 
