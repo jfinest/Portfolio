@@ -1,0 +1,178 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+body{
+	background: #232526;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#logopic{
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+h1,h2,h3,h4{
+	color: white;
+	font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.contactpageheaders{
+	color: black;
+}
+
+
+@media Screen and (max-width: 360px) {
+	#header{
+		width: 100%;
+	}
+	#sub_header{
+		text-align: center;
+		width: 100%;
+	}
+	#horse{
+	margin-right: 15px;
+	margin-left: 0px;
+	margin-top: 5px;
+	max-width: 325px;
+	}
+	#featuredwork{
+		text-align: center;
+		width: 100%;
+	}
+	.contactpageheaders{
+	color: black;
+	font-size: 12px;
+	}
+}
+
+@media Screen and (min-width: 361px) {
+	#header{
+		width: 100%;
+		order: 0;
+	}
+	#logo{
+		margin-top: 20px;
+	}
+	h1{
+		font-size: 40px;
+	}
+	h4{
+		font-size: 25px;
+	}
+	#mainpic{
+		max-width: 650px;
+		order: 1;
+	}
+	h2{
+		font-size: 30px;
+	}
+	#sub_header{
+		width: 100%;
+		order: 2;
+	}
+	#featuredwork{
+		width: 100%;
+		order: 3;
+	}
+	p{
+		font-size: 25px;
+	}
+	.text-uppercase{
+		font-size: 30px;	
+	}
+	.contactpageheaders{
+	color: black;
+	}
+	
+}
+
+@media Screen and ( min-width: 750px) {
+	#header{
+		width: 100%;
+		order: 0;
+	}
+	#logo{
+		margin-top: 20px;
+	}
+	h1{
+		font-size: 60px;
+	}
+	h4{
+		font-size: 40px;
+	}
+	#mainpic{
+		max-width: 650px;
+		order: 1;
+	}
+	h2{
+		font-size: 50px;
+	}
+	#sub_header{
+		width: 100%;
+		order: 2;
+	}
+	#featuredwork{
+		width: 100%;
+		order: 3;
+	}
+	p{
+		font-size: 30px;
+	}
+	.text-uppercase{
+		font-size: 30px;	
+	}
+	.contactpageheaders{
+	color: black;
+	}
+}
+
+
+@media Screen and (min-width: 992px) {
+	body{
+		max-width: 992px;
+		margin-left: auto;
+    	margin-right: auto;
+	}
+	h2{
+		text-align: center;
+		font-size: 50px;
+	}
+	h1{
+		font-size: 55px;
+	}
+	h4{
+		font-size: 30px;
+		margin-right: 5px;
+	}
+	#logo{
+		margin-top: 20px;
+	}
+	p{
+		font-size: 17px;
+	}
+	#sub_header{
+		text-align: center;
+		width: 100%;
+		order: 2;
+	}
+	#header{
+		width: 100%;
+		order: 0;
+	}
+	#horse{
+	margin-right: 10px;
+	margin-top: 5px;
+	max-width: 950px;
+	order: 1;
+	}
+	#featuredwork{
+		width: 100%;
+		order: 3;
+	}
+	.contactpageheaders{
+	color: black;
+	}
+}
+
