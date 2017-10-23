@@ -2,17 +2,18 @@
 	display: flex;
 	flex-wrap: wrap;
 }
+
 body{
 	background: #232526;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-#logopic{
-	margin-left: 10px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+
+#name, #jobtitle{
+	text-align: -webkit-center;
 }
+
 h1,h2,h3,h4{
 	color: white;
 	font-family: 'Comic Sans MS', cursive, sans-serif;
@@ -21,7 +22,6 @@ h1,h2,h3,h4{
 .contactpageheaders{
 	color: black;
 }
-
 
 @media Screen and (max-width: 360px) {
 	#header{
@@ -44,6 +44,10 @@ h1,h2,h3,h4{
 	.contactpageheaders{
 	color: black;
 	font-size: 12px;
+	text-align: -webkit-center;
+	}
+	#name, #jobtitle{
+	text-align: -webkit-center;
 	}
 }
 
@@ -85,6 +89,9 @@ h1,h2,h3,h4{
 	.contactpageheaders{
 	color: black;
 	}
+	#name, #jobtitle{
+	text-align: -webkit-center;
+	}
 	
 }
 
@@ -125,6 +132,9 @@ h1,h2,h3,h4{
 	}
 	.contactpageheaders{
 	color: black;
+	}
+	#name, #jobtitle{
+	text-align: -webkit-center;
 	}
 }
 
@@ -173,6 +183,9 @@ h1,h2,h3,h4{
 	}
 	.contactpageheaders{
 	color: black;
+	}
+	#name, #jobtitle{
+	text-align: -webkit-center;
 	}
 }
 
