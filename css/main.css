@@ -53,6 +53,7 @@ h1,h2,h3,h4{
 	margin-left: 0px;
 	margin-top: 5px;
 	max-width: 325px;
+	opacity: 0.5;
 	}
 	#featuredwork{
 		text-align: center;
@@ -94,6 +95,7 @@ h1,h2,h3,h4{
 	}
 	#mainpic{
 		max-width: 650px;
+		opacity: 0.5;
 		order: 1;
 	}
 	h2{
@@ -137,9 +139,6 @@ h1,h2,h3,h4{
 		width: 100%;
 		order: 0;
 	}
-	#logo{
-		margin-top: 20px;
-	}
 	h1{
 		font-size: 60px;
 	}
@@ -148,6 +147,7 @@ h1,h2,h3,h4{
 	}
 	#mainpic{
 		max-width: 650px;
+		opacity: 0.5;
 		order: 1;
 	}
 	h2{
@@ -218,6 +218,7 @@ h1,h2,h3,h4{
 	margin-right: 10px;
 	margin-top: 5px;
 	max-width: 950px;
+	opacity: 0.5;
 	order: 1;
 	}
 	#mainpic{
