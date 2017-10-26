@@ -40,6 +40,10 @@ h1,h2,h3,h4{
 	#header{
 		width: 100%;
 	}
+	.row{
+		margin-right: -15px;
+		margin-left: -15px;
+	}
 	#sub_header{
 		text-align: center;
 		width: 100%;
@@ -215,6 +219,10 @@ h1,h2,h3,h4{
 	margin-top: 5px;
 	max-width: 950px;
 	order: 1;
+	}
+	#mainpic{
+		margin-right: 0px;
+		margin-left: -15px;
 	}
 	#featuredwork{
 		width: 100%;
