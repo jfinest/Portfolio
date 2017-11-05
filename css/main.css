@@ -14,7 +14,12 @@ body{
 h1,h2,h3,h4{
 	color: white;
 	font-family: 'Comic Sans MS', cursive, sans-serif;
+	/*text-align: center;*/
 }
+
+/*p{
+	text-align: center;
+}*/
 
 .ContactPage{
 	color: black;
